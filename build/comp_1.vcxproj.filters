@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sparga\CODE_CANVAS\TryTest\P_16\Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sparga\CODE_CANVAS\TryTest\P_16\Modules\Function_1\function_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sparga\CODE_CANVAS\TryTest\P_16\CmakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DD7C93F1-1427-3019-A0AD-FE5811FAF197}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

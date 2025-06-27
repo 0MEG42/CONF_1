@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt ;
 
 if __name__=='__main__':
     
-    C_Complement_Function =  CDLL('build\libcomp_1.dll')
+    C_Complement_Function =  CDLL('build\Debug\comp_1.dll')
     print(C_Complement_Function.ras(34))
     fig, ax = plt.subplots()
     fruits = ['apple', 'blueberry', 'cherry', 'orange']

@@ -1,1 +1,0 @@
-  -LC:/Users/sparga/CODE_CANVAS/TryTest/P_16/A_MYSQL_CONNECTOR/lib64  -lmysqlcppconn -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

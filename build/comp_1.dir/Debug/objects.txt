@@ -1,0 +1,2 @@
+C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/comp_1.dir/Debug/Function.obj
+C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/comp_1.dir/Debug/function_1.obj

@@ -1,0 +1,2 @@
+C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/comp_1.dir/MinSizeRel/Function.obj
+C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/comp_1.dir/MinSizeRel/function_1.obj

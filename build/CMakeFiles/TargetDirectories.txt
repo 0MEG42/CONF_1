@@ -1,3 +1,3 @@
 C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/CMakeFiles/comp_1.dir
-C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/CMakeFiles/edit_cache.dir
-C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/CMakeFiles/rebuild_cache.dir
+C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/CMakeFiles/ZERO_CHECK.dir

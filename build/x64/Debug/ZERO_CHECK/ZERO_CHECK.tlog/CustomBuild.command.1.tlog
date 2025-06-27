@@ -1,0 +1,10 @@
+^C:\USERS\SPARGA\CODE_CANVAS\TRYTEST\P_16\BUILD\CMAKEFILES\45FD86BF71B922BBCD774CB1EE03170E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sparga/CODE_CANVAS/TryTest/P_16 -BC:/Users/sparga/CODE_CANVAS/TryTest/P_16/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sparga/CODE_CANVAS/TryTest/P_16/build/P_1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
