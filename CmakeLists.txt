@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 3.30)
+project(P1)
+include_directories(${CMAKE_SOURCE_DIR})
+set(CMAKE_CXX_STANDARD 17)
+set(MYSQL_CPP_DIR "${CMAKE_SOURCE_DIR}/A_MYSQL_CONNECTOR")
+
+
+
+include_directories("${MYSQL_CPP_DIR}/include")
+include_directories("${MYSQL_CPP_DIR}/include/jdbc")
+link_directories("${MYSQL_CPP_DIR}/lib64")
+
+if(NOT EXISTS "${MYSQL_CPP_DIR}/include/jdbc/mysql_driver.h")
+    message(FATAL_ERROR "MySQL Connector headers not found in ${MYSQL_CPP_DIR}/include/jdbc")
+endif()
+
+
+
+add_library(
+
+    comp_1 SHARED  Function.cpp  
+    Modules/Function_1/Function_1.cpp 
+
+)
+
+
+set_target_properties(
+    
+    comp_1 PROPERTIES
+    WINDOWS_EXPORT_ALL_SYMBOLS TRUE
+)
+
+
+
+target_compile_definitions(comp_1 PRIVATE EXPORT_DLL)
+target_link_libraries(comp_1 mysqlcppconn)
